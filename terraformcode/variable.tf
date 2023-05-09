@@ -56,7 +56,7 @@ variable "vpc-cidr-block" {
 variable "subnet-cidr-block" {
   description = "The CIDR block to associate to the subnet"
   type        = string
-  default     = "10.0.1.0/24"
+  default     = "10.0.0.0/20"
 }
 
 variable "vpc-tag-name" {
